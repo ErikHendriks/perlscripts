@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-# searches for /pattern/ in file iven by argv
+# searches for /pattern/ in file given by argv
 while (<>) {
   print "$ARGV:$.:$_" if /#ff0077/;
 } continue {
